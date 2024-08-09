@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nepal Telecom</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      header {
+        background-color: #004080;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        background-color: #003366;
+      }
+      nav a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+      }
+      nav a:hover {
+        background-color: #002244;
+      }
+      .container {
+        padding: 20px;
+      }
+      .hero {
+        color: black;
+        text-align: center;
+        padding: 100px 20px;
+      }
+      .services,
+      .about,
+      .plans,
+      .support,
+      .contact {
+        margin: 20px 0;
+      }
+      .footer {
+        background-color: #004080;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+      }
+      .section-title {
+        margin-top: 20px;
+        font-size: 24px;
+        color: #003366;
+      }
+      .about,
+      .services,
+      .plans,
+      .support,
+      .contact {
+        background-color: #f4f4f4;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+      }
+      .services ul,
+      .plans ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      .services li,
+      .plans li {
+        background-color: white;
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+      .plans .plan {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .plans .plan h3 {
+        margin: 0;
+      }
+      .plans .plan p {
+        margin: 5px 0 0;
+      }
+
+      button {
+        background-color: yellow;
+        border: 0;
+
+        outline: 0;
+        padding: 8px 16px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Nepal Telecom</h1>
+    </header>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#services">Services</a>
+      <a href="#plans">Plans</a>
+      <a href="#support">Support</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+
+    <div class="container" id="home">
+      <div class="hero">
+        <h2>Welcome to Nepal Telecom</h2>
+        <p>Your Trusted Communication Partner</p>
+      </div>
+    </div>
+
+    <div class="container about" id="about">
+      <h2 class="section-title">About Us</h2>
+      <p>
+        Nepal Telecom is the leading telecommunications service provider in
+        Nepal, offering a wide range of services including internet, mobile,
+        landline, and TV. Established in 2004, Nepal Telecom has been at the
+        forefront of the telecom revolution in the country, bringing
+        cutting-edge technology and reliable services to millions of customers.
+      </p>
+      <h3>Our Mission</h3>
+      <p>
+        To provide world-class telecommunication services that enhance the
+        quality of life for our customers and contribute to the economic
+        development of Nepal.
+      </p>
+      <h3>Our Vision</h3>
+      <p>
+        To be the most trusted and innovative telecommunication service provider
+        in Nepal.
+      </p>
+      <h3>Milestones</h3>
+      <ul>
+        <li>2004: Nepal Telecom established.</li>
+        <li>2007: Launched 3G services.</li>
+        <li>2014: Introduced 4G LTE services.</li>
+        <li>2020: Reached 20 million subscribers.</li>
+      </ul>
+    </div>
+
+    <div class="container services" id="services">
+      <h2 class="section-title">Our Services</h2>
+      <ul>
+        <li>
+          <h3>Internet Services</h3>
+          <p>
+            High-speed broadband and fiber internet services for homes and
+            businesses.
+          </p>
+        </li>
+        <li>
+          <h3>Mobile Services</h3>
+          <p>
+            Comprehensive mobile plans, including prepaid and postpaid options,
+            with nationwide coverage.
+          </p>
+        </li>
+        <li>
+          <h3>Landline Services</h3>
+          <p>
+            Reliable landline services with various packages to meet your
+            communication needs.
+          </p>
+        </li>
+        <li>
+          <h3>TV Services</h3>
+          <p>
+            High-definition TV services with a wide range of channels and
+            on-demand content.
+          </p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container plans" id="plans">
+      <h2 class="section-title">Our Plans</h2>
+      <ul>
+        <li class="plan">
+          <div>
+            <h3>Basic Internet Plan</h3>
+            <p>10 Mbps at NPR 500/month</p>
+          </div>
+          <button>Subscribe</button>
+        </li>
+        <li class="plan">
+          <div>
+            <h3>Standard Internet Plan</h3>
+            <p>50 Mbps at NPR 1500/month</p>
+          </div>
+          <button>Subscribe</button>
+        </li>
+        <li class="plan">
+          <div>
+            <h3>Premium Internet Plan</h3>
+            <p>100 Mbps at NPR 2500/month</p>
+          </div>
+          <button>Subscribe</button>
+        </li>
+        <li class="plan">
+          <div>
+            <h3>Basic Mobile Plan</h3>
+            <p>500 minutes and 1GB data at NPR 200/month</p>
+          </div>
+          <button>Subscribe</button>
+        </li>
+        <li class="plan">
+          <div>
+            <h3>Unlimited Mobile Plan</h3>
+            <p>Unlimited calls and data at NPR 1000/month</p>
+          </div>
+          <button>Subscribe</button>
+        </li>
+        <li class="plan">
+          <div>
+            <h3>Family TV Plan</h3>
+            <p>100 channels at NPR 800/month</p>
+          </div>
+          <button>Subscribe</button>
+        </li>
+        <li class="plan">
+          <div>
+            <h3>Premium TV Plan</h3>
+            <p>200 channels and on-demand content at NPR 1500/month</p>
+          </div>
+          <button>Subscribe</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container support" id="support">
+      <h2 class="section-title">Support</h2>
+      <p>
+        If you need assistance with any of our services, our support team is
+        here to help you 24/7. You can reach us through:
+      </p>
+      <ul>
+        <li>Hotline: 1234-567890</li>
+        <li>Email: support@nepaltelecom.com</li>
+        <li>Live Chat: Available on our website</li>
+      </ul>
+      <h3>Frequently Asked Questions</h3>
+      <p>
+        Visit our <a href="#faq">FAQ section</a> for answers to common questions
+        about our services and plans.
+      </p>
+    </div>
+
+    <div class="container contact" id="contact">
+      <h2 class="section-title">Contact Us</h2>
+      <p>For more information or any inquiries, you can reach us at:</p>
+      <ul>
+        <li>Email: support@nepaltelecom.com</li>
+        <li>Phone: 1234-567890</li>
+        <li>Address: Kathmandu, Nepal</li>
+      </ul>
+      <h3>Follow Us</h3>
+      <p>Stay connected with us through our social media channels:</p>
+      <ul>
+        <li>
+          Facebook:
+          <a href="https://facebook.com/nepaltelecom" target="_blank"
+            >facebook.com/nepaltelecom</a
+          >
+        </li>
+        <li>
+          Twitter:
+          <a href="https://twitter.com/nepaltelecom" target="_blank"
+            >twitter.com/nepaltelecom</a
+          >
+        </li>
+        <li>
+          Instagram:
+          <a href="https://instagram.com/nepaltelecom" target="_blank"
+            >instagram.com/nepaltelecom</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <footer class="footer">
+      <p>&copy; 2024 Nepal Telecom. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
